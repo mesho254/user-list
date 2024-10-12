@@ -64,6 +64,7 @@ const App = () => {
           rowKey="id"
           onRow={(record) => ({
             onClick: () => handleRowClick(record),
+            style: { cursor: 'pointer' },
           })}
           pagination={{ pageSize: 5 }}
           bordered
